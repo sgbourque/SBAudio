@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6539e963-da25-48ef-9247-9815b7689cf3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bcf64475-7103-4311-b46b-401313906585}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7adcced0-1f4b-478a-9d08-676cc619093a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ASIO_SDK">
+      <UniqueIdentifier>{44dabf34-0b91-4f0f-949c-1f4bb01b18e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ASIO_SDK">
+      <UniqueIdentifier>{f4a1749f-cbb4-4c66-8cab-ec9e5d73edb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AudioFormat">
+      <UniqueIdentifier>{c9ac1468-69b4-4d29-8055-a85586602af2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SB_ASIO_SDK_DIR)common\asio.cpp">
+      <Filter>Source Files\ASIO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SB_ASIO_SDK_DIR)host\asiodrivers.cpp">
+      <Filter>Source Files\ASIO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SB_ASIO_SDK_DIR)host\pc\asiolist.cpp">
+      <Filter>Source Files\ASIO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SBAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SB_ASIO_SDK_DIR)host\sample\hostsample.cpp">
+      <Filter>Source Files\ASIO_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SBAsioDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SBWav.cpp">
+      <Filter>Source Files\AudioFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="SBTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SB_ASIO_SDK_DIR)common\asio.h">
+      <Filter>Header Files\ASIO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SB_ASIO_SDK_DIR)host\asiodrivers.h">
+      <Filter>Header Files\ASIO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SB_ASIO_SDK_DIR)host\pc\asiolist.h">
+      <Filter>Header Files\ASIO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SB_ASIO_SDK_DIR)host\ginclude.h">
+      <Filter>Header Files\ASIO_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SBAsioDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="src\ref2361.txt">
+      <Filter>Source Files\AudioFormat</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

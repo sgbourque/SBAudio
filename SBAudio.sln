@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E6370095-2AC5-477D-B9FA-5B6D1E9F7720}") = "SBAudio", "SBAudio.vcxproj", "{FCD22C0A-39DE-4987-AC75-F1E14CA75392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Debug|x64.ActiveCfg = Debug|x64
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Debug|x64.Build.0 = Debug|x64
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Debug|x86.Build.0 = Debug|Win32
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Release|x64.ActiveCfg = Release|x64
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Release|x64.Build.0 = Release|x64
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Release|x86.ActiveCfg = Release|Win32
+		{FCD22C0A-39DE-4987-AC75-F1E14CA75392}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60BFEB89-E032-4295-ACC4-1B7E392629DD}
+	EndGlobalSection
+EndGlobal
